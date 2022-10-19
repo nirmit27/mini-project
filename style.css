@@ -99,6 +99,10 @@ input[type=checkbox]{
   font-weight: 800;
 }
 
+#clipboard:active{
+  transform: translateY(3px);
+}
+
 .btn-large {
   display: block;
   padding: 8px 8px;

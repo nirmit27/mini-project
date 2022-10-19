@@ -1,2 +1,2 @@
 # mini-project
-Password generator created using JavaScript
+A password generator website created using HTML, CSS and JavaScript, featuring button animations created using CSS.

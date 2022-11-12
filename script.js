@@ -25,8 +25,12 @@ clipboardEl.addEventListener('click', () => {
     textarea.select()
     document.execCommand('copy')
     textarea.remove()
-    alert('Password copied to clipboard!')
+    setTimeout(alert_fun,1000)
 })
+
+function alert_fun(){
+    alert('Password copied to clipboard!')
+}
 
 generateEl.addEventListener('click', () => {
     const length = +lengthEl.value

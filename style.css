@@ -105,11 +105,12 @@ input[type=checkbox]{
 }
 
 #clipboard:active{
-  transform: translateY(3px);
+  transform: scale(0.85);
 }
 
 .btn-large {
   display: block;
+  border-radius: 5px;
   padding: 8px 8px;
   width: 100%;
   transition: 0.5s;
@@ -123,7 +124,7 @@ input[type=checkbox]{
 
 .btn-large:active {
   background-color: rgb(51, 7, 87);
-  transform: translateY(4px);
+  transform: scale(0.9,0.7);
 }
 
 .setting {

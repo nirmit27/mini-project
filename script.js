@@ -27,7 +27,7 @@ clipboardEl.addEventListener("click", () => {
   textarea.select();
   document.execCommand("copy");
   textarea.remove();
-  setTimeout(alert_fun, 1000);
+  setTimeout(alert_fun, 500);
 });
 
 function alert_fun() {
